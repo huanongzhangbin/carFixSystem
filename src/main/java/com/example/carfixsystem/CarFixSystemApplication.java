@@ -33,7 +33,7 @@ import java.util.Collections;
 public class CarFixSystemApplication {
 
     public static void main(String[] args) {
-
+        System.out.println("helll");
         SpringApplication.run(CarFixSystemApplication.class, args);
         /*FastAutoGenerator.create("jdbc:mysql://127.0.0.1:3306/carfixsystemdb?useUnicode=true&characterEncoding=utf-8", "root", "Aa135798")
                 .globalConfig(builder -> {
