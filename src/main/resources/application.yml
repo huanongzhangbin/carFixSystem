@@ -1,0 +1,32 @@
+server:
+    port: 9090
+
+
+spring:
+    devtools:
+        restart:
+            enabled=true:
+    application:
+# ?????
+        name: carFixSystem
+
+    datasource:
+        url: jdbc:mysql://127.0.0.1:3306/carfixsystemdb?useUnicode=true&characterEncoding=utf-8
+        username: root
+        password: Aa135798
+        driver-class-name: com.mysql.jdbc.Driver
+#        driver-class-name:com.mysql.cj.jdbc.Driver
+        type: com.alibaba.druid.pool.DruidDataSource
+swagger:
+    base-package: com/example/carfixsystem
+    title: 'carfixsystem'
+pagehelper:
+    helper-dialect: mysql
+    reasonable: true
+    support-methods-arguments: true
+    params: count=countSql
+
+app:
+    appid: C16108302
+    appkey: 05e0a37364c1e6e3c8df1ae232b43174
+
