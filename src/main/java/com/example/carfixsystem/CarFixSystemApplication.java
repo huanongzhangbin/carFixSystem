@@ -34,7 +34,7 @@ public class CarFixSystemApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CarFixSystemApplication.class, args);
-        System.out.println("hhhh");
+
         /*FastAutoGenerator.create("jdbc:mysql://127.0.0.1:3306/carfixsystemdb?useUnicode=true&characterEncoding=utf-8", "root", "Aa135798")
                 .globalConfig(builder -> {
                     builder.author("张彬") // 设置作者
